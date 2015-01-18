@@ -1,0 +1,5 @@
+When building apps for OS X or iOS, you’ll spend most of your time working with objects. Those objects are instances of Objective-C classes, some of which are provided for you by Cocoa or Cocoa Touch and some of which you’ll write yourself.
+当你在为OS X和iOS编写应用程序是，你的大部分时间都将是在同对象打交道。这些对象是Objective-C类的实例，其中一些类由Cocoa或者Cocoa Touch框架提供，另一些则将会由你自己编写。
+
+If you’re writing your own class, start by providing a description of the class that details the intended public interface to instances of the class. This interface includes the public properties to encapsulate relevant data, along with a list of methods. Method declarations indicate the messages that an object can receive, and include information about the parameters required whenever the method is called. You’ll also provide a class implementation, which includes the executable code for each method declared in the interface.
+在编写自己的类的时候，首先要提供类的描述，这些描述详细说明了类的实例所具有的公共接口。接口包含的公共属性封装了相关的数据和一系列的方法。方法声明意味着对象可以接收这个消息，在接收消息的同时可以包含所需的参数信息。同时，你还要提供类的实现，在实现中要包含在接口中定义的每个方法的可执行代码。
